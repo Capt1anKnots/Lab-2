@@ -1,0 +1,20 @@
+#include <stdio.h>
+    int main()
+    {
+        float fRate, fSalesprice, fCost;
+        fRate= 0;
+        fSalesprice = 0;
+        fCost=  0;
+
+        printf ("Welcome to the commission calculator!\n");
+        printf("Enter Rate:");
+        scanf("%f", &fRate);
+        printf("Enter Sales price:");
+        scanf("%f", &fSalesprice);
+        printf("Enter Cost:");
+        scanf ("%f", &fCost);
+        printf("\nYour Commission is $%f \n",(fSalesprice - fCost) * fRate);
+
+
+
+    }
